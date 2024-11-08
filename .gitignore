@@ -1,0 +1,17 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/HyperNetwork/*
+!/HyperNetwork/task/
+/HyperNetwork/task/*
+!/HyperNetwork/task/main.py
+!/HyperNetwork/task/Dockerfile

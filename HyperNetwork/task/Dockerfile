@@ -1,0 +1,8 @@
+FROM postgres:15.3
+LABEL authors="SaintTail"
+
+ENV POSTGRES_PASSWORD=hyper2023
+ENV POSTGRES_USER=hyper
+ENV POSTGRES_DB=hyper-db
+
+EXPOSE 5432
